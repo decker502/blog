@@ -1,0 +1,17 @@
+---
+layout: default
+title: 
+---
+
+<ul class="thumbnails">
+{% for post in site.categories.photo %}
+  <li class="span4">
+  	<div class="thumbnail">
+	    <a href="{{ post.url }}" class="thumbnail">
+	      <img data-src="holder.js/300x200" src="{{ post.image }}!300x200" alt="">
+	    </a>
+	    <p>{{ post.title }}</p>
+    </div>
+  </li>
+{% endfor %}
+</ul>

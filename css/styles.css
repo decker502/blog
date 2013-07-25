@@ -1,0 +1,17 @@
+body {
+  color: #5a5a5a;
+}
+.hero-bg {
+  background: url('/images/hero-bg.jpg');
+}
+
+.hero-unit h1, .hero-unit p {
+  color: white;
+}
+
+.thumbnails a {
+  border: 0px;
+}
+.thumbnails li p{
+  color: black;
+}
