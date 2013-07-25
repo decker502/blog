@@ -1,14 +1,30 @@
 body {
   color: #5a5a5a;
-}
-.hero-bg {
-  background: url('/images/hero-bg.jpg');
+  background-image: url('/images/bg.png');
 }
 
+.breadcrumb {
+	background-color: #ccc;
+}
+
+.breadcrumb li.active {
+	color: white;
+	text-shadow: 0 0 0 #fff;
+}
+.hero-bg {
+  background: url('http://zydhotel.qiniudn.com/hero-bg.jpg');
+}
+
+.hero-unit {
+
+}
 .hero-unit h1, .hero-unit p {
   color: white;
 }
 
+.thumbnail {
+	background-color: white;
+}
 .thumbnails a {
   border: 0px;
 }
