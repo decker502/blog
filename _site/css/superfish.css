@@ -23,7 +23,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 }
 
 .sf-menu>li+li {
-	margin-left:58px;
+	margin-left:48px;
 }
 
 .sf-menu>li:hover, .sf-menu>li.sfHover, .sf-menu>li.current {
@@ -33,12 +33,12 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li>a{
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 20px;
 	font-family: 'Pathway Gothic One', sans-serif;
 	color: #fff;
 	position: relative;
 	font-weight: 300px;
-	line-height: 28px;
+	line-height: 20px;
 	z-index: 999;
 	position: relative;
 }
@@ -56,7 +56,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	left: 50%;
 	margin-left: -33px;
 
-	width: 66px;
+	width: 120px;
 	z-index: 999; 
 	padding-top: 7px;
 	border-radius: 3px;
@@ -95,7 +95,7 @@ border-color: transparent transparent #ffffff
 
 .sf-menu li ul li a{
 	text-transform: uppercase;
-	font: 20px/20px 'Pathway Gothic One', sans-serif;;
+	font: 16px/16px 'Pathway Gothic One', sans-serif;;
 	position: relative;
 	color: #6b7488;
 

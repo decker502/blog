@@ -1,7 +1,4 @@
 /**/
-@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
 @import "../css/reset.css";
 @import "../css/grid.css";
 @import "../css/superfish.css";
@@ -83,9 +80,6 @@ p {
 	margin-bottom: 19px;
 }
 
-img {
-	max-width: 100%;
-}
 
 address {
 	font-style: normal;
@@ -713,6 +707,10 @@ p.text1.tx2 {
 
 .bottom_block ul {
 	padding-top: 42px;
+}
+
+.bottom_block a {
+	font: 14px/14px 'Open Sans Condensed', sans-serif;
 }
 
 blockquote {
